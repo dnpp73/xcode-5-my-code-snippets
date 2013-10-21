@@ -3,19 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pragma-mark</string>
+	<string>touchUpInside</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>pragma mark - &lt;#text#&gt;</string>
+	<string>- (IBAction)touchUpInside&lt;#Name#&gt;Button:(UIButton*)button
+{
+    &lt;#implementation#&gt;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>32EB014F-C778-416F-BC4F-0FDCDEBE56F2</string>
+	<string>DFDC9EED-8177-4021-8E09-61B8DDA0D170</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Preprocessor - Pragma mark</string>
+	<string>UIKit IBAction UIButton TouchUpInside</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
