@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>animation</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>void (^anim)(void) = ^{
+};
+void (^comp)(BOOL) = ^(BOOL finished){
+};
+if (animated) {
+    NSTimeInterval animationDuration = 0.2;
+    NSTimeInterval animationDelay    = 0.0;
+    UIViewAnimationOptions options = UIViewAnimationOptionCurveEaseInOut|UIViewAnimationOptionBeginFromCurrentState;
+    [UIView animateWithDuration:animationDuration delay:animationDelay options:options animations:anim completion:comp];
+} else {
+    anim();
+    comp(YES);
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8BBBEF39-E4E2-4D1D-BEDE-25BE8A531687</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>よく使うやう</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIKit Animation My Template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
